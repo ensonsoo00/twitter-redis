@@ -1,1 +1,3 @@
-# twitter-redis
+# Twitter API Implementation
+
+The purpose of this project is to test the scaling limits of a relational database. We also compared the performances of Twitter API implementations between using a relational database and a key-value database (Redis). The basic operations of the Twitter API implementation include a "post" method and a "retrieve" method, which allow the user to post a tweet or retrieve the home timeline of a given user (which contains the 10 latest tweets of all the users that the given user follows). 
